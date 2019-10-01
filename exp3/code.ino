@@ -10,8 +10,8 @@ void loop(){
   val = digitalRead(inPin);  
   if (val == HIGH) 
   {     
-    digitalWrite(13, LOW); 
+    digitalWrite(13, HIGH); 
   } else {
-    digitalWrite(13, HIGH);
+    digitalWrite(13, LOW);
   }
 }
